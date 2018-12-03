@@ -10,7 +10,22 @@ git branch -D (nazwa branchu - bez nawiasow) -> usuniecie branchu
 <---------------
 gt stash (wykorzystujemy gdy np. pomylilismy branche)
 git stash -> dodanie na stos zmian wprowadzonych wczesniej
-git stash pop -> zdjecie ze stosu zmian
+git stash pop (ewent nazwa logów - bez nawiasow)-> zdjecie ze stosu zmian i usuniecie ich ze stosu
+git stash apply (nazwa - bez nawiasow) - przywrocenie zmian ze stosu i pozostawienie ich na stosie
 git stash push -m "Comment" -> dodanie wartosci na stos z komentarzem, tylko dla sledzonych plikow
 git stash list -> lista zmian na stosie
 git stash push -m "Comment" -u -> dodanie na stos niesledzonych wartosci
+git stash drop (nazwa) -> usuniecie loga ze stosu
+git stash clear -> wyczyszczenie stosu
+git stash branch (nazwa) -> utworzenie nowego brancha z przeniesieniem danych do brancha
+
+<-------------------
+zdalne repozytorium
+git push -> wysylanie zmian z repozytorium lokalnego na zdalne
+git fetch -> pobranie zmian ze zdalnego repozytorium
+git merge origin/master -> zaktualizowanie nowego branchu master
+git remote add origin (link) -> podlaczenie zdalnego repozytorium
+git push -u origin master -> wyslanie repozytorium lokalnego na zdalny (pozniej uzywamy juz tylko git push)
+
+fork -> kopia repozytorium do ktorego nie mamy praw dostepu i nie mozmy nic zapisac
+   
