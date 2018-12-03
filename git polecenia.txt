@@ -1,0 +1,4 @@
+<------------
+git branch (nazwa nowego brancha - bez nawiasów) -> dodaje nowego brancha
+git branch -> pokazuje liste utworzonych branchy
+git checkaout (nazwa branchu - bez nawiasów) -> prze³¹cza brancha na ¿adany
