@@ -1,7 +1,16 @@
-<------------
+<------------ 
+git branch
 git branch (nazwa nowego brancha - bez nawiasów) -> dodaje nowego brancha
 git branch -> pokazuje liste utworzonych branchy
 git checkaout (nazwa branchu - bez nawiasów) -> prze³¹cza brancha na ¿adany
 git merge (nazwa branchu - bez nawiasow) -> ³¹czy branch z masterem
 git log --graph --decorate --all --oneline -> podgladniecie zmian
 git branch -D (nazwa branchu - bez nawiasow) -> usuniecie branchu
+
+<---------------
+gt stash (wykorzystujemy gdy np. pomylilismy branche)
+git stash -> dodanie na stos zmian wprowadzonych wczesniej
+git stash pop -> zdjecie ze stosu zmian
+git stash push -m "Comment" -> dodanie wartosci na stos z komentarzem, tylko dla sledzonych plikow
+git stash list -> lista zmian na stosie
+git stash push -m "Comment" -u -> dodanie na stos niesledzonych wartosci
