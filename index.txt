@@ -1,2 +1,6 @@
 Ryba je gruba?
+<<<<<<< HEAD
 Nic nie wiesz, ryba jest big!
+=======
+Ryba nie jest gruba tylko pulchna.
+>>>>>>> newBranch
